@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Quintessential');
+
+/*Animation for navbar*/
+
+@keyframes fadein {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+.navbar h3 {
+  opacity: 1;
+  animation-name: fadein;
+  animation-duration: 4s;
+}
+
+body {
+  user-select: none;
+  background-color: #EAEAEA;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+
+.btn {
+  margin: 3em 8px 0;
+  float: right;
+}
+
+.page {
+  font-family: Quintessential, sans-serif;
+  font-size: 23px;
+  display: block;
+}
+
+.page p {
+  transition: color 0.5s linear;
+  -webkit-transition: color 0.5s linear;
+  -moz-transition: color 0.5s linear;
+  -o-transition: color 0.5s linear;
+}
+
+.container .page .fa-sun {
+  font-size: 100px;
+}
+
+/*Neon texts*/
+
+.sunlight {
+  text-shadow: 0 0 5px #FFFC54, 3px 3px 10px #FFFC54, 5px -5px 30px #FFFC54, -5px 5px 50px #FFFC54;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.greenlight {
+  text-shadow: 0 0 5px #3AFF3D, 3px 3px 10px #3AFF3D, 5px -5px 30px #3AFF3D, -5px 5px 50px #3AFF3D;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.bluelight {
+  text-shadow: 0 0 5px #3988FF, 3px 3px 10px #3988FF, 5px -5px 30px #3988FF, -5px 5px 50px #3988FF;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pinklight {
+  text-shadow: 0 0 5px #FF6363, 3px 3px 10px #FF6363, 5px -5px 30px #FF6363, -5px 5px 50px #FF6363;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.purplelight {
+  text-shadow: 0 0 5px #7200FF, 3px 3px 10px #7200FF, 5px -5px 30px #7200FF, -5px 5px 50px #7200FF;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.orangelight {
+  text-shadow: 0 0 5px #FFB600, 3px 3px 10px #FFB600, 5px -5px 30px #FFB600, -5px 5px 50px #FFB600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.redlight {
+  text-shadow: 0 0 5px #FF0000, 3px 3px 10px #FF0000, 5px -5px 30px #FF0000, -5px 5px 50px #FF0000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/*Media*/
+
+@media (max-width: 576px) {
+
+  .navbar h3 {
+    font-size: 20px;
+  }
+
+  .btn {
+    float: none;
+    width: 3em;
+  }
+
+  .page {
+    margin-top: 2em;
+  }
+
+  .container .page p {
+    font-size: 17.5px;
+  }
+}
